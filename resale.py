@@ -19,11 +19,6 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
-c1,_,c2=st.columns([2,1,2])
-with _:
-    st.empty()
-    st.image('https://raw.githubusercontent.com/Gokul170601/Singapore-Resale-Flat-Prices-Prediction/main/Animated%20Logo.gif')
-    st.empty()
 
 
 #set up the sidebar with optionmenu
@@ -237,7 +232,7 @@ if selected == "About":
     st.subheader(':orange[Overview :]')
     st.markdown('''  <h5>Data Collection and Preprocessing  <br>     
                 <li> Data Source : Downloaded historical resale flat data from official HDB sources, 
-                covering the period from 1990 to the current date. <br>              
+                covering the period from 1990 to 2024. <br>              
                 <li> Initial Cleaning: Handled missing values, corrected inconsistencies, and ensured the data's integrity. <br>           
                 <li> Feature Engineering: Enhanced the dataset by creating new features and transforming existing ones to
                 better capture the underlying patterns.''',unsafe_allow_html=True)
