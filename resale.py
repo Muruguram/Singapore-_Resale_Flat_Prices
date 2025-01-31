@@ -8,7 +8,7 @@ import pickle
 
 #set up page configuration for streamlit
 st.set_page_config(page_title='HDB Flat Resale Price Predictor',page_icon='house',initial_sidebar_state='expanded',
-                        layout='wide',menu_items={"about":'This streamlit application was developed by M.Gokul'})
+                        layout='wide')
 
 #css for page setup
 st.markdown("""
